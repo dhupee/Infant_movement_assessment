@@ -1,2 +1,4 @@
 __pycache__/
 data/
+models/
+colab_openpose/

@@ -1,0 +1,78 @@
+.
+├── colab_openpose
+│   ├── Get_pose_estimates_from_video.ipynb
+│   ├── models
+│   │   ├── model.h5
+│   │   ├── original_cmu_model.h5
+│   │   └── trained_model.h5
+│   ├── output_files
+│   │   ├── example_infant_openposeLabeled.mp4
+│   │   └── example_infant.pkl
+│   ├── readme.txt
+│   └── videos
+│       └── example_infant.mov
+├── data
+│   ├── clinical
+│   │   ├── py
+│   │   │   └── pose_estimates.pkl
+│   │   └── video
+│   ├── example_video
+│   │   ├── py
+│   │   ├── video_exampl.mov
+│   │   └── video_exampl.pkl
+│   ├── interim
+│   ├── pose_estimates
+│   │   └── youtube
+│   │       └── py
+│   │           ├── pose_estimates.pkl
+│   │           ├── raw_pose_estimates.pkl
+│   │           └── video_info.pkl
+│   ├── pose_estimates.pkl
+│   ├── pose_model
+│   ├── processed
+│   ├── video
+│   └── video_meta_data
+│       ├── meta_data_clin.pkl
+│       └── meta_data_yt.pkl
+├── directory_tree.txt
+├── image
+│   ├── infant.gif
+│   └── pose_estimates.png
+├── models
+│   ├── cmu_model.h5
+│   ├── config
+│   └── trained_model.h5
+├── notebooks
+│   ├── get_pose_estimates_from_video.ipynb
+│   ├── master.ipynb
+│   ├── visualize_pose_data.ipynb
+│   ├── visualize_pose_model_error.ipynb
+│   └── visualize_results.ipynb
+├── README.md
+├── requirements.txt
+└── src
+    ├── data
+    │   ├── build_features.py
+    │   ├── compute_surprise.py
+    │   ├── load_pose_data.py
+    │   ├── merge_data_sets.py
+    │   ├── preprocess_pose_data.py
+    │   └── __pycache__
+    │       ├── build_features.cpython-38.pyc
+    │       ├── compute_surprise.cpython-38.pyc
+    │       ├── load_pose_data.cpython-38.pyc
+    │       ├── merge_data_sets.cpython-38.pyc
+    │       └── preprocess_pose_data.cpython-38.pyc
+    ├── modules
+    │   ├── circstats.py
+    │   ├── __init__.py
+    │   ├── __pycache__
+    │   │   ├── circstats.cpython-38.pyc
+    │   │   └── util_data.cpython-38.pyc
+    │   └── util_data.py
+    └── pose_model
+        ├── get_pose_model_predictions_and_groundtruth.py
+        ├── model.py
+        └── util.py
+
+28 directories, 48 files
